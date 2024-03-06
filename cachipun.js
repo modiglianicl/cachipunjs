@@ -29,7 +29,7 @@ for (let i = 0 ; i < nJuegos ; i++) {
     console.log(`La maquina ha tirado ${rMaquina}!`)
 
     // Definiendo ganador
-    document.write(`Partida n°${i} : `)
+    document.write(`Partida n°${i+1} : `)
     if (rJugador === rMaquina) {
         console.log(`Empate! (Tú : ${rJugador} v/s Máquina : ${rMaquina})`);
         document.write(`Empate! (Tú : ${rJugador} v/s Máquina : ${rMaquina})<br>`);
